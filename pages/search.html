@@ -1,13 +1,13 @@
 ---
 layout: page
 isPage: true
-title: 搜索
+title: Search
 css: [blog.css]
 js: [blog.js,search.js,plugin.js]
 ---
 <div class="container page-search animation-fade-up">
 	<h1 class="page-title" id="{{ page.title }}">{{ page.title }}</h1>
-	<input id="search-input" type="text" placeholder="请在这里输入关键词^_^"></input>
+	<input id="search-input" type="text" placeholder="Please enter key words^_^"></input>
 	<ul class="search-list">
 		{% for post in site.posts  %}
 		<li hidden>
