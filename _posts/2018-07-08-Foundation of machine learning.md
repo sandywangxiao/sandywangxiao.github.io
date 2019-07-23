@@ -13,7 +13,7 @@ categories: [Machine Learning]
     + Cross entropy loss:  $L(y,\hat{y})=-yln(\hat{y})-(1-y)ln(1-\hat{y}) $
            
 + **Types of Learning:**
-![3 type](1.png)
+![1](1.png)
 + **Three critical terms**
     + **Convexity:** convex problems can be solved efficiently $\Rightarrow$ Convexification
     + **Sparsity: ** common in high dimensional or massive data sets
@@ -38,7 +38,7 @@ categories: [Machine Learning]
 + **CV:** easy to overfit when choosing variable, better to use in prediction process
 + **AIC:** Model selection inconsistent
 + **BIC:** consistant,  better to use when choosing variable
-![model selection](2.png)
+![2](2.png)
 + **Regularzation:**
     1. Ridge regression:$ \hat{\beta}_{ridge}=argmin_{\beta}\|Y-\mathbb{X}\beta\|_2^2+\lambda\|\beta\|_2^2$
        <br>for linear regression:the solution $\hat{\beta}_{ridge}=(\mathbb{X}^T\mathbb{X}+\lambda I)^{-1}\mathbb{X}^TY$ <br>
@@ -49,7 +49,7 @@ categories: [Machine Learning]
 <br>$\mathbb{X}\hat{\beta}_{ridge}=UD(D^2+\lambda I)^{-1}DU^TY=\mathop{\Sigma}_{j=1}^pu_j(\frac{d_j^2}{d_j^2+\lambda})u_j^TY <br>$
     2. Lasso :$ \hat{\beta}_{lasso}=argmin_{\beta}\|Y-\mathbb{X}\beta\|_2^2+\lambda\|\beta\|_1 $
     3. $\|\cdot\|_p$ :  convexity and model selection(sparsity)
-    ![model selection](3.png)
+    ![3](3.png)
     
 
 # 4.Maximum Entropy Models and Logistic Regression
